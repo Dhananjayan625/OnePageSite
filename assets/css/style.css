@@ -5,8 +5,41 @@ body {
 }
 .abc img{
 	filter: brightness(40%);
-	
 }
+
+.rectbo {
+	position: relative;
+	z-index: 1;
+}
+
+.this {
+	height: 300px;
+}
+.colon {
+	position: relative;
+	top: -260px;
+	left: -170px;
+	z-index: 2;
+}
+
+.bigtext {
+	position: relative;
+	z-index: 2;
+	text-align: justify;
+	top: -240px;
+	left: 100px;
+	width: 350px;
+}
+
+.smalltext {
+	position: relative;
+	z-index: 2;
+	text-align: left;
+	top: -240px;
+	left: 335px;
+	width: 350px;
+}
+
 .abc img:hover{
 	filter: brightness(120%);
 }
@@ -621,33 +654,27 @@ h3 {
     width: 16px;
     height: 16px;
     padding: 0;
-    background: none;
-    border: 1px solid #fff;
-    border-color: rgba(255, 255, 255, 0.8);
+    background: rgb(185, 176, 176);
+    border: 1px solid rgb(165, 155, 155);
+    border-color: rgba(192, 183, 183, 0.8);
     -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%;
 }
 
 .testimonial-list .nav-tabs li a:hover,
 .testimonial-list .nav-tabs li a:focus {
-	background: #fff;
-	background: rgba(255, 255, 255, 0.8);
-    border: 1px solid #fff;
-    border-color: rgba(255, 255, 255, 0.8);
+	background:#FFCC06;
+	background: #FFCC06;
+    border: 1px solid #FFCC06;
+    border-color: rgba(253, 229, 13, 0.781);
 }
 
 .testimonial-list .nav-tabs li a.active,
 .testimonial-list .nav-tabs li a.active:focus {
-	background: #9b59b6; /* Old browsers */
-	background: -moz-linear-gradient(top,  #ffb24b 0%, #9b59b6 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffb24b), color-stop(100%,#9b59b6)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  #ffb24b 0%,#9b59b6 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  #ffb24b 0%,#9b59b6 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  #ffb24b 0%,#9b59b6 100%); /* IE10+ */
-	background: linear-gradient(to bottom,  #ffb24b 0%,#9b59b6 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb24b', endColorstr='#9b59b6',GradientType=0 ); /* IE6-9 */
-	
+	background: #FFCC06; /* Old browsers */
+	background-color: #FFCC06;
 	border: 0;
 }
+
 
 
 /***** Blog *****/
